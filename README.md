@@ -1,6 +1,6 @@
 # npmtest-turbine.js
 
-#### test coverage for  [turbine.js (v0.4.0)](https://github.com/wmbenedetto/turbine.js)  [![npm package](https://img.shields.io/npm/v/npmtest-turbine.js.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-turbine.js) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-turbine.js.svg)](https://travis-ci.org/npmtest/node-npmtest-turbine.js)
+#### basic test coverage for  [turbine.js (v0.4.0)](https://github.com/wmbenedetto/turbine.js)  [![npm package](https://img.shields.io/npm/v/npmtest-turbine.js.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-turbine.js) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-turbine.js.svg)](https://travis-ci.org/npmtest/node-npmtest-turbine.js)
 
 #### Turbine.js is an event-driven JavaScript Workflow Engine.
 
@@ -10,7 +10,7 @@
 |--:|:--|
 | coverage : | [![istanbul-coverage](https://npmtest.github.io/node-npmtest-turbine.js/build/coverage.badge.svg)](https://npmtest.github.io/node-npmtest-turbine.js/build/coverage.html/index.html)|
 | test-report : | [![test-report](https://npmtest.github.io/node-npmtest-turbine.js/build/test-report.badge.svg)](https://npmtest.github.io/node-npmtest-turbine.js/build/test-report.html)|
-| build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-turbine.js/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-turbine.js/tree/gh-pages/build)|
+| test-server-github : | [![github.com test-server](https://npmtest.github.io/node-npmtest-turbine.js/GitHub-Mark-32px.png)](https://npmtest.github.io/node-npmtest-turbine.js/build/app/index.html) | | build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-turbine.js/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-turbine.js/tree/gh-pages/build)|
 
 - [https://npmtest.github.io/node-npmtest-turbine.js/build/coverage.html/index.html](https://npmtest.github.io/node-npmtest-turbine.js/build/coverage.html/index.html)
 
@@ -95,7 +95,8 @@
         "type": "git",
         "url": "git+https://github.com/wmbenedetto/turbine.js.git"
     },
-    "version": "0.4.0"
+    "version": "0.4.0",
+    "bin": {}
 }
 ```
 
